@@ -8,7 +8,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_xEytAMBBEe2rvof_BlM05g">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Wun_YMDiEe2rvof_BlM05g" name="[PAB] Camera and Sensor NPC BC" repPath="#_WuljIMDiEe2rvof_BlM05g" changeId="c368e0ec-06a8-4570-a865-7df078e749ec">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Wun_YMDiEe2rvof_BlM05g" name="[PAB] Camera and Sensor NPC BC" repPath="#_WuljIMDiEe2rvof_BlM05g" changeId="a9462500-3e4d-4115-a9a2-849ba34d23b0">
         <eAnnotations xmi:type="description:DAnnotation" uid="_WurCsMDiEe2rvof_BlM05g" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WurCscDiEe2rvof_BlM05g" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WurCssDiEe2rvof_BlM05g" key="hide.computed.physical.links.filter" value="true"/>
@@ -312,17 +312,6 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_xuAW8cDiEe2rvof_BlM05g" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xuAW8sDiEe2rvof_BlM05g" x="700" y="320" width="561"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_xtQTlMDjEe2rvof_BlM05g" type="2001" element="_xtGikMDjEe2rvof_BlM05g">
-          <children xmi:type="notation:Node" xmi:id="_xtQ6oMDjEe2rvof_BlM05g" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_xtQ6ocDjEe2rvof_BlM05g" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_0TbroMDjEe2rvof_BlM05g" type="3005" element="_0TadgMDjEe2rvof_BlM05g">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_0TbrocDjEe2rvof_BlM05g" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TbrosDjEe2rvof_BlM05g"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_xtQTlcDjEe2rvof_BlM05g" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xtQTlsDjEe2rvof_BlM05g" x="440" y="660" width="161"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_WuqbosDiEe2rvof_BlM05g"/>
         <edges xmi:type="notation:Edge" xmi:id="_gcgZ8MDiEe2rvof_BlM05g" type="4001" element="_gcXQBMDiEe2rvof_BlM05g" source="_gcfy5cDiEe2rvof_BlM05g" target="_gcfy4MDiEe2rvof_BlM05g">
@@ -715,18 +704,6 @@
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_0QuLUMDiEe2rvof_BlM05g" showIcon="false" borderSizeComputationExpression="1" borderColor="136,136,136" labelPosition="node" workspacePath="Smart Robotic Car/Images/Camera and Sensor and Servo.png">
         <customFeatures>workspacePath</customFeatures>
         <customFeatures>showIcon</customFeatures>
-        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Contraint']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Contraint']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xtGikMDjEe2rvof_BlM05g" width="10" height="5" resizeKind="NSEW">
-      <target xmi:type="org.polarsys.capella.core.data.capellacore:Constraint" href="Smart%20Robotic%20Car.capella#d718f8f3-650d-4ede-babc-8ef3856dfc8d"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.capellacore:Constraint" href="Smart%20Robotic%20Car.capella#d718f8f3-650d-4ede-babc-8ef3856dfc8d"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_0TadgMDjEe2rvof_BlM05g" borderSizeComputationExpression="1" borderColor="136,136,136" labelPosition="node" workspacePath="Smart Robotic Car/Images/PA Link Prefix Legend.png">
-        <customFeatures>workspacePath</customFeatures>
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Contraint']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@nodeMappings[name='DT_Contraint']"/>

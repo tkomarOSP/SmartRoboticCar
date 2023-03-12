@@ -245,9 +245,9 @@
           </ownedSpecification>
         </ownedConstraints>
         <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
-            id="d718f8f3-650d-4ede-babc-8ef3856dfc8d" name="">
+            id="e0f2d1e4-94b8-43d5-b68a-b95496910ad9" name="">
           <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
-              id="d37ce004-4e36-4e5b-a10c-e2bb810d4cb0">
+              id="73246d56-966a-422d-bcbb-259d93a2e8b7">
             <bodies></bodies>
             <languages>capella:linkedText</languages>
           </ownedSpecification>
