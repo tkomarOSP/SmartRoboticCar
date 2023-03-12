@@ -275,18 +275,34 @@
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="e8ca4fd2-4564-4cbf-95d2-c3c41405330d" targetElement="#56deb524-4118-4f4c-a69f-317d753e0290"
               sourceElement="#afb60b66-e2b4-4bee-a387-410f64a24854"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="7a33e420-8963-4d45-8a3f-afb175762f28" name="M-CM to USSM" linkEnds="#466f9360-107e-4d2d-baa6-7cacad3d6c98 #9b9cc54f-baba-4923-9256-60cfc0e33b2d"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="5b76399e-770f-4114-8555-5b07efa28d55" name="PL 2" linkEnds="#e530d5ba-2046-42a3-a361-5c5a96159166 #b36060b1-a2cb-44bd-ad09-559b54904907"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="cfae80b4-69a8-44b2-8e18-40f488a17292" name="PL 3" linkEnds="#44c031fd-e7e8-45a1-bcfe-770cd912d72d #b0982c34-e673-482e-941a-83c46c4e5d5d"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="1ca65559-bcfe-4b00-aa3b-b0a3c390574b" name="PL 4" linkEnds="#994929e8-af28-4b86-a589-8d429f2c25d8 #fb96e634-ce04-4b05-8011-c1fa5c257c5d"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="252dffbe-e6ef-46ce-a1ee-3222e7564357" name="PL 5" linkEnds="#d865a0e4-fb15-4997-b652-3a4baa782be2 #1916d947-64c3-4332-8e13-7d9a3bdc5724"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="cabc69a3-f60f-42fa-bc46-21457ec852f3" name="PL 6" linkEnds="#ee0352cb-d4a2-4bf1-a36e-841e96fb9959 #26d369da-4325-469f-8277-8b9bafe9cb0d"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="bc270856-cbf5-4aa2-a517-7388965298aa" name="Camera Module" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="78d7e83a-220d-4620-92e8-22422808db4d"
                 name="Camera" abstractType="#413dc732-7ee3-48d0-afe1-adeae756e2e1"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="c56d7ad8-e9ae-4c3b-a867-a97574a0462b" name="PP 2"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="466f9360-107e-4d2d-baa6-7cacad3d6c98" name="PP 3"/>
             <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
                 id="0b16942b-c04a-4b8f-8b75-a8bb55e49238" name="M CM to C" linkEnds="#7be45c28-12b3-4043-bd12-2aeaa1a8671a #c56d7ad8-e9ae-4c3b-a867-a97574a0462b"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="413dc732-7ee3-48d0-afe1-adeae756e2e1" name="Camera" nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="7be45c28-12b3-4043-bd12-2aeaa1a8671a" name="PP 1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="44c031fd-e7e8-45a1-bcfe-770cd912d72d" name="PP 2"/>
             </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
@@ -294,18 +310,49 @@
               nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3f2e6d08-4d24-4cf7-9fb5-0173f8eb10eb"
                 name="Ultra Sonic Sensor" abstractType="#28221e6f-e47c-47e9-b749-e44edc42dd99"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="9b9cc54f-baba-4923-9256-60cfc0e33b2d" name="PP 2"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="16ac1f8e-1b3c-41a7-9bf3-d52954dc0fd2" name="PP 3"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="994929e8-af28-4b86-a589-8d429f2c25d8" name="PP 4"/>
+            <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+                id="8edf617e-df7f-4316-974d-2c88959e69b4" name="PL 1" linkEnds="#ab3555fb-6874-4f98-8735-2a58b87ee926 #16ac1f8e-1b3c-41a7-9bf3-d52954dc0fd2"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="28221e6f-e47c-47e9-b749-e44edc42dd99" name="Ultra Sonic Sensor"
-                nature="NODE"/>
+                nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="e530d5ba-2046-42a3-a361-5c5a96159166" name="PP 1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="ab3555fb-6874-4f98-8735-2a58b87ee926" name="PP 2"/>
+            </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="60274737-55d8-4fc2-b49c-64da66ed3624" name="Servvo" nature="NODE"/>
+              id="60274737-55d8-4fc2-b49c-64da66ed3624" name="Servvo" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="fb96e634-ce04-4b05-8011-c1fa5c257c5d" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="d865a0e4-fb15-4997-b652-3a4baa782be2" name="PP 2"/>
+          </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="cf17ba62-2258-4cde-a284-ff0031a50002" name="Dead Plate" nature="NODE"/>
+              id="cf17ba62-2258-4cde-a284-ff0031a50002" name="Dead Plate" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="1916d947-64c3-4332-8e13-7d9a3bdc5724" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="ee0352cb-d4a2-4bf1-a36e-841e96fb9959" name="PP 2"/>
+          </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="9abc0f04-525d-4f8a-b3ed-15d5eeb5fae6" name="Bottom Plate" nature="NODE"/>
+              id="9abc0f04-525d-4f8a-b3ed-15d5eeb5fae6" name="Bottom Plate" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="26d369da-4325-469f-8277-8b9bafe9cb0d" name="PP 1"/>
+          </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="cae30b17-b036-4778-87b1-ebf7b30b1a91" name="IO Board" nature="NODE"/>
+              id="cae30b17-b036-4778-87b1-ebf7b30b1a91" name="IO Board" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="b36060b1-a2cb-44bd-ad09-559b54904907" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="b0982c34-e673-482e-941a-83c46c4e5d5d" name="PP 2"/>
+          </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="37f88b0b-f396-4ce6-82af-bb042f82d925" name="Controller Board" nature="NODE"/>
         </ownedPhysicalComponents>
