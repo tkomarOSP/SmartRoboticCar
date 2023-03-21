@@ -8,7 +8,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_xEytAMBBEe2rvof_BlM05g">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Wun_YMDiEe2rvof_BlM05g" name="[PAB] Camera and Sensor NPC" repPath="#_WuljIMDiEe2rvof_BlM05g" changeId="305f00b6-f45c-4ec9-a645-17351e77f6d6">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Wun_YMDiEe2rvof_BlM05g" name="[PAB] Camera and Sensor NPC" repPath="#_WuljIMDiEe2rvof_BlM05g" changeId="21607290-7596-4660-9bc0-9689624ac619">
         <eAnnotations xmi:type="description:DAnnotation" uid="_WurCsMDiEe2rvof_BlM05g" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WurCscDiEe2rvof_BlM05g" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WurCssDiEe2rvof_BlM05g" key="hide.computed.physical.links.filter" value="true"/>
@@ -570,10 +570,10 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2qX8sgHEe2S95SuvQntDw"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_P2pw5sgHEe2S95SuvQntDw" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2pw58gHEe2S95SuvQntDw" x="81" width="10" height="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2pw58gHEe2S95SuvQntDw" x="83" width="10" height="10"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_P2pJ0cgHEe2S95SuvQntDw" fontName="Segoe UI" fontHeight="8" italic="true"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2pJ0sgHEe2S95SuvQntDw" x="15" y="24" width="91" height="53"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2pJ0sgHEe2S95SuvQntDw" x="15" y="24" width="93" height="73"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_vQyGkcDiEe2rvof_BlM05g"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_vQyGksDiEe2rvof_BlM05g"/>
@@ -762,7 +762,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_LTpe98DkEe2rvof_BlM05g" type="4001" element="_LTcqoMDkEe2rvof_BlM05g" source="_LTo34MDkEe2rvof_BlM05g" target="_LTo36MDkEe2rvof_BlM05g">
           <children xmi:type="notation:Node" xmi:id="_LTpe-8DkEe2rvof_BlM05g" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LTpe_MDkEe2rvof_BlM05g" x="-17" y="-51"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LTpe_MDkEe2rvof_BlM05g" x="4" y="-53"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_LTpe_cDkEe2rvof_BlM05g" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LTpe_sDkEe2rvof_BlM05g" x="4" y="10"/>

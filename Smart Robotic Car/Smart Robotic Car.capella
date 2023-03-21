@@ -520,9 +520,11 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="7a33e420-8963-4d45-8a3f-afb175762f28" name="M-CM to USSM" linkEnds="#466f9360-107e-4d2d-baa6-7cacad3d6c98 #9b9cc54f-baba-4923-9256-60cfc0e33b2d"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="5b76399e-770f-4114-8555-5b07efa28d55" name="USS to IOB" linkEnds="#e530d5ba-2046-42a3-a361-5c5a96159166 #b36060b1-a2cb-44bd-ad09-559b54904907"/>
+              id="5b76399e-770f-4114-8555-5b07efa28d55" name="USS to IOB" description="&lt;p>This physical link is represented in red in the following diagrams.&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
+              linkEnds="#e530d5ba-2046-42a3-a361-5c5a96159166 #b36060b1-a2cb-44bd-ad09-559b54904907"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="cfae80b4-69a8-44b2-8e18-40f488a17292" name="E-Camera to IOB" linkEnds="#44c031fd-e7e8-45a1-bcfe-770cd912d72d #b0982c34-e673-482e-941a-83c46c4e5d5d"/>
+              id="cfae80b4-69a8-44b2-8e18-40f488a17292" name="E-Camera to IOB" description="&lt;p>The highlight in red oval is this respective interface.&lt;/p>&#xA;&#xA;&lt;p>&lt;img height=&quot;584&quot; src=&quot;Images/wiringdiagram_camera.png&quot; style=&quot;width: 453px; height: 305px;&quot; width=&quot;991&quot; />&lt;/p>&#xA;"
+              linkEnds="#44c031fd-e7e8-45a1-bcfe-770cd912d72d #b0982c34-e673-482e-941a-83c46c4e5d5d"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="1ca65559-bcfe-4b00-aa3b-b0a3c390574b" name="M-USSM-Servo" linkEnds="#994929e8-af28-4b86-a589-8d429f2c25d8 #fb96e634-ce04-4b05-8011-c1fa5c257c5d"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
@@ -532,7 +534,8 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="bd451ee4-8ff6-4a91-b7ac-e5ef07435048" name="E-IOB-CB" linkEnds="#0f3c26b7-ec49-4341-8cba-5226f906d3f6 #905a3f2b-6e57-4ea8-98fb-6d7b9b48848b"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="774996cc-5b45-4a8e-89a8-6a8ab1a964e6" name="Servo-IOB" linkEnds="#be2a5ce8-58ef-4c7a-8eed-13758e029b8b #43c2e07a-ed75-4095-99f3-13ef4966ee2f"/>
+              id="774996cc-5b45-4a8e-89a8-6a8ab1a964e6" name="Servo-IOB" description="&lt;p>The interface is captured in diagram below.&lt;/p>&#xA;&#xA;&lt;p>&lt;img src=&quot;Images/wiringdiagram_servo.png&quot; />&lt;/p>&#xA;"
+              linkEnds="#be2a5ce8-58ef-4c7a-8eed-13758e029b8b #43c2e07a-ed75-4095-99f3-13ef4966ee2f"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="bc270856-cbf5-4aa2-a517-7388965298aa" name="Camera Module" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="78d7e83a-220d-4620-92e8-22422808db4d"
