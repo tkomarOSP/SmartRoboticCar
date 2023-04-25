@@ -1,0 +1,8 @@
+Confirm_Delete=true
+Delete_Parts=false
+Delete_Protected_Elements=true
+EnableFileSyncMonitoring=false
+FileSyncMonitoringDelay=15
+eclipse.preferences.version=1
+preference.show.capella.project.concept=false
+preference.show.part.explicit=true
