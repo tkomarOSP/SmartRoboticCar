@@ -588,16 +588,16 @@
               linkEnds="#be2a5ce8-58ef-4c7a-8eed-13758e029b8b #43c2e07a-ed75-4095-99f3-13ef4966ee2f"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="bc270856-cbf5-4aa2-a517-7388965298aa" name="Camera Module" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="c56d7ad8-e9ae-4c3b-a867-a97574a0462b" name="PP 2"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="466f9360-107e-4d2d-baa6-7cacad3d6c98" name="PP 3"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="78d7e83a-220d-4620-92e8-22422808db4d"
                 name="Camera" abstractType="#413dc732-7ee3-48d0-afe1-adeae756e2e1">
               <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                   id="135d633d-3fd7-4582-940b-9f4fad5b2c13" deployedElement="#753a6fdb-ec6f-4dca-8e15-311514f5deb1"
                   location="#78d7e83a-220d-4620-92e8-22422808db4d"/>
             </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="c56d7ad8-e9ae-4c3b-a867-a97574a0462b" name="PP 2"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="466f9360-107e-4d2d-baa6-7cacad3d6c98" name="PP 3"/>
             <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
                 id="0b16942b-c04a-4b8f-8b75-a8bb55e49238" name="M CM to C" linkEnds="#7be45c28-12b3-4043-bd12-2aeaa1a8671a #c56d7ad8-e9ae-4c3b-a867-a97574a0462b"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
@@ -736,8 +736,8 @@
             </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="24bda714-5010-4380-a9b7-4161a4b08367" name="Ultra Sonic Sensor"
-              nature="BEHAVIOR">
+              id="24bda714-5010-4380-a9b7-4161a4b08367" description="&#xA;&#xA;&lt;table>&#xA;  &lt;thead>&#xA;    &lt;tr>&#xA;      &lt;th>Function&lt;/th>&#xA;      &lt;th>Summary&lt;/th>&#xA;      &lt;th>Inputs&lt;/th>&#xA;      &lt;th>Outputs&lt;/th>&#xA;    &lt;/tr>&#xA;  &lt;/thead>&#xA;  &lt;tbody>&#xA;    &lt;tr>&#xA;      &lt;td>Distance Measurement&lt;/td>&#xA;      &lt;td>Measures the distance between the sensor and an object&lt;/td>&#xA;      &lt;td>Trigger and Echo Signals&lt;/td>&#xA;      &lt;td>Distance in cm&lt;/td>&#xA;    &lt;/tr>&#xA;    &lt;tr>&#xA;      &lt;td>Speed Measurement&lt;/td>&#xA;      &lt;td>Measures the speed of an object&lt;/td>&#xA;      &lt;td>Trigger and Echo Signals&lt;/td>&#xA;      &lt;td>Speed in cm/s&lt;/td>&#xA;    &lt;/tr>&#xA;    &lt;tr>&#xA;      &lt;td>Presence Detection&lt;/td>&#xA;      &lt;td>Detects the presence of an object&lt;/td>&#xA;      &lt;td>Trigger and Echo Signals&lt;/td>&#xA;      &lt;td>Boolean Value (true/false)&lt;/td>&#xA;"
+              name="Ultra Sonic Sensor" nature="BEHAVIOR">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="35014dd0-4000-4ab2-a015-8f71aab715d1" targetElement="#5b34c754-abca-475e-8e55-bab100501968"
                 sourceElement="#24bda714-5010-4380-a9b7-4161a4b08367"/>
