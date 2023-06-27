@@ -149,22 +149,23 @@
               sourceElement="#1ec1b6fc-bb11-4be6-922f-6dbd23c6de90"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="e90c8b53-8596-4da3-b291-ad49fbdb3015" name="Tactile Rocker Input"
-              target="#740992b0-1e55-4032-9a53-3daee297c709" source="#a7d3548a-c2df-4462-b9e2-cdc1f5ec49e4"/>
+              target="#740992b0-1e55-4032-9a53-3daee297c709" source="#a7d3548a-c2df-4462-b9e2-cdc1f5ec49e4"
+              exchangedItems="#a553baf7-d4b7-46f8-85f1-b3376674de1f"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8f9eaa7b-b2e3-4c1e-835d-1a4035c34680" name="App Rocker Cmds" target="#4eaed06b-f46c-4f74-b602-bf88c9f9bd8f"
-              source="#1e0960f1-dbf6-4b60-be77-cccee9634dc7"/>
+              source="#1e0960f1-dbf6-4b60-be77-cccee9634dc7" exchangedItems="#de174c51-653d-4412-9a06-163956ade26a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="194714cd-3dd0-478e-a04f-c8b0cb6dc9c7" name="Power" target="#dc926192-af5e-4c32-af8d-a3c82d1e2980"
-              source="#9fa3fc83-380d-4da6-92be-384795a37447"/>
+              source="#9fa3fc83-380d-4da6-92be-384795a37447" exchangedItems="#9c1251fc-5069-4bb0-b58b-6a6ed81cb169"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="4cea9a0a-b03b-4e6f-beb1-75d3659f5df3" name="Power" target="#d1b60fd6-3a93-417e-82aa-e5b0418aac98"
-              source="#9f058590-ef04-439f-bb5b-4e99c5292657"/>
+              source="#9f058590-ef04-439f-bb5b-4e99c5292657" exchangedItems="#9c1251fc-5069-4bb0-b58b-6a6ed81cb169"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="791a7632-d6ac-4d8e-887d-3b10bf34f37b" name="Torgue" target="#4a9bef0b-da6a-4cae-810d-67bbe4970e07"
-              source="#70fd6b76-d66a-466c-b103-39afb55be3ad"/>
+              source="#70fd6b76-d66a-466c-b103-39afb55be3ad" exchangedItems="#b8e8664e-26e0-489b-9142-914553bdd161"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="b03a367b-cc7a-4d8f-a33e-5e96692a48fa" name="Torquw" target="#f4647c6c-7e44-46f3-bd7e-a9d45270f76b"
-              source="#c7d3a2e6-b35b-4899-96ad-00976c76b207"/>
+              id="b03a367b-cc7a-4d8f-a33e-5e96692a48fa" name="Torque" target="#f4647c6c-7e44-46f3-bd7e-a9d45270f76b"
+              source="#c7d3a2e6-b35b-4899-96ad-00976c76b207" exchangedItems="#b8e8664e-26e0-489b-9142-914553bdd161"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
@@ -431,6 +432,58 @@
           id="049f4c2d-801c-40c0-b5ec-129df9950755" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
           id="2f5bb8ee-5fd9-4d38-9c1a-6fb9c8ed5af7" name="Data">
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="a553baf7-d4b7-46f8-85f1-b3376674de1f" name="Tactile App Input" exchangeMechanism="FLOW">
+          <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
+              id="20a4b6e8-5f3d-41e4-8829-eb6fb93a3942" name="ThisRockerState" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"
+              direction="UNSET" composite="true">
+            <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="bf8d5df8-7dae-4015-b321-645406c0292a" value="1"/>
+            <ownedMaxCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="4e1c37a5-8154-42e4-be38-dc6766f93e2a" value="1"/>
+          </ownedElements>
+        </ownedExchangeItems>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="de174c51-653d-4412-9a06-163956ade26a" name="Rocker State" exchangeMechanism="SHARED_DATA">
+          <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
+              id="3b3d72e7-7775-4f0b-bed2-094d36957969" name="ThisRockerState" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"
+              direction="UNSET" composite="true">
+            <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="6df00b7f-29c3-4ce9-befd-d015fc0c2dcb" value="1"/>
+            <ownedMaxCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="9fd947c6-a100-4e0f-950d-05698ec2d025" value="1"/>
+          </ownedElements>
+        </ownedExchangeItems>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="9c1251fc-5069-4bb0-b58b-6a6ed81cb169" name="Power" exchangeMechanism="FLOW">
+          <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
+              id="c4eddc03-6b2d-403a-a6dd-de51a9ef308d" name="ThisPower" abstractType="#b23d4d5b-a9c5-4a85-a4eb-5983df252350"
+              direction="UNSET" composite="true">
+            <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="07d1cf93-e20d-46a4-9d7b-f80b36380d29" value="1"/>
+            <ownedMaxCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="a94e4f23-b9d4-4eff-813b-22f8001189f5" value="1"/>
+          </ownedElements>
+        </ownedExchangeItems>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="b8e8664e-26e0-489b-9142-914553bdd161" name="Torque" exchangeMechanism="OPERATION">
+          <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
+              id="070e51ce-5285-48bb-8413-5f78f7570f30" name="Applied Torque" abstractType="#16a9fb1e-ed21-44ee-adb6-4d4b2b803a91"
+              kind="MEMBER" composite="true">
+            <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="dae18321-2314-4e76-9289-66fe31590328" value="1"/>
+            <ownedMaxCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="a8124015-936a-4418-9580-c047c8e8c26d" value="1"/>
+          </ownedElements>
+          <ownedElements xsi:type="org.polarsys.capella.core.data.information:ExchangeItemElement"
+              id="e4ba149a-839e-4406-aed3-6e1bb602b57f" name="Realized Torque" abstractType="#16a9fb1e-ed21-44ee-adb6-4d4b2b803a91"
+              kind="MEMBER" composite="true">
+            <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="d6885237-97a2-4515-be4a-43947f5856ec" value="1"/>
+            <ownedMaxCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+                id="35604418-3d56-426e-a3a3-9d75ceefc6da" value="1"/>
+          </ownedElements>
+        </ownedExchangeItems>
         <ownedDataPkgs xsi:type="org.polarsys.capella.core.data.information:DataPkg"
             id="37f2fd0d-74d6-4ad6-adf9-8f07148902bb" name="Predefined Types">
           <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:BooleanType"
@@ -523,6 +576,37 @@
                 value="0"/>
           </ownedDataTypes>
         </ownedDataPkgs>
+        <ownedUnits xsi:type="org.polarsys.capella.core.data.information:Unit" id="1a6d100c-6bf4-4856-9d2d-4a4efeeb4e90"
+            name="W"/>
+        <ownedUnits xsi:type="org.polarsys.capella.core.data.information:Unit" id="691ed754-9c5a-4ba2-8ddb-a693cf0cc354"
+            name="N-m"/>
+        <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:Enumeration"
+            id="bf8bd13f-3cf5-4119-8e63-44438c81b0e5" name="Rocker State">
+          <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
+              id="e3e839c2-8597-42cf-aa6e-41ce3a751cbe" name="Stop" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"/>
+          <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
+              id="85bbb24d-44a4-4c88-ba47-29b13c302010" name="Forward" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"/>
+          <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
+              id="c4cb1c2b-dbbb-487b-a768-27ce7c792fc9" name="Left" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"/>
+          <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
+              id="f5c9dff1-d0ca-4093-a9ee-ff6d568b3af6" name="Right" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"/>
+          <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
+              id="9d88ac76-f649-451d-83b9-eb2a3bec3ba7" name="Back" abstractType="#bf8bd13f-3cf5-4119-8e63-44438c81b0e5"/>
+        </ownedDataTypes>
+        <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:PhysicalQuantity"
+            id="b23d4d5b-a9c5-4a85-a4eb-5983df252350" name="Power" unit="#1a6d100c-6bf4-4856-9d2d-4a4efeeb4e90">
+          <ownedDefaultValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+              id="25f3fd45-84de-4c4b-b5ec-f5f2bb456f59" name="" abstractType="#b23d4d5b-a9c5-4a85-a4eb-5983df252350"
+              unit="#1a6d100c-6bf4-4856-9d2d-4a4efeeb4e90" value="0"/>
+          <ownedMinValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+              id="6a1a3649-793b-4e5d-9ad6-381d1581bb5f" name="" abstractType="#b23d4d5b-a9c5-4a85-a4eb-5983df252350"
+              unit="#1a6d100c-6bf4-4856-9d2d-4a4efeeb4e90" value="-1"/>
+          <ownedMaxValue xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
+              id="bdb78abd-a790-49c7-9c92-5be013c79d46" name="" abstractType="#b23d4d5b-a9c5-4a85-a4eb-5983df252350"
+              unit="#1a6d100c-6bf4-4856-9d2d-4a4efeeb4e90" value="1"/>
+        </ownedDataTypes>
+        <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:PhysicalQuantity"
+            id="16a9fb1e-ed21-44ee-adb6-4d4b2b803a91" name="Torque" unit="#691ed754-9c5a-4ba2-8ddb-a693cf0cc354"/>
       </ownedDataPkg>
       <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
           id="1412d08a-78f1-47d5-b7fa-f529b25e0d68" name="Structure">
