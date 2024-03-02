@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--Capella_Version_5.2.0-->
+<!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/5.0.0"
-    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/5.0.0"
-    xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/5.0.0"
-    xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/5.0.0"
-    xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/5.0.0"
-    xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/5.0.0"
-    xmlns:org.polarsys.capella.core.data.epbs="http://www.polarsys.org/capella/core/epbs/5.0.0"
-    xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/5.0.0"
-    xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/5.0.0"
-    xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/5.0.0"
-    xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/5.0.0"
-    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/5.0.0"
-    xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/5.0.0"
-    xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0"
-    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
-    xmlns:org.polarsys.capella.core.data.pa.deployment="http://www.polarsys.org/capella/core/pa/deployment/5.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
+    xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
+    xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0"
+    xmlns:org.polarsys.capella.core.data.epbs="http://www.polarsys.org/capella/core/epbs/6.0.0"
+    xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/6.0.0"
+    xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/6.0.0"
+    xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/6.0.0"
+    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/6.0.0"
+    xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa.deployment="http://www.polarsys.org/capella/core/pa/deployment/6.0.0"
     id="e720a305-db19-4853-9552-d6689e1e78a2"
     name="Smart Robotic Car">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="943f445b-46da-49fe-9b31-5b7ac9e8fcb4"/>
@@ -2994,7 +2994,7 @@
               id="5b76399e-770f-4114-8555-5b07efa28d55" name="E- USS to IOB" description="&lt;p>This physical link is represented in red in the following diagrams.&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
               linkEnds="#e530d5ba-2046-42a3-a361-5c5a96159166 #b36060b1-a2cb-44bd-ad09-559b54904907"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="cfae80b4-69a8-44b2-8e18-40f488a17292" name="E-Camera to IOB" description="&lt;p>The highlight in red oval is this respective interface.&lt;/p>&#xA;&#xA;&lt;p>&lt;img height=&quot;584&quot; src=&quot;Images/wiringdiagram_camera.png&quot; style=&quot;width: 453px; height: 305px;&quot; width=&quot;991&quot; />&lt;/p>&#xA;"
+              id="cfae80b4-69a8-44b2-8e18-40f488a17292" name="E-Camera to IOB" description="&lt;p>The highlight in red oval is this respective interface.&lt;/p>&#xA;&#xA;&lt;p>&lt;img height=&quot;584&quot; src=&quot;Smart Robotic Car/Images/wiringdiagram_camera.png&quot; style=&quot;width: 453px; height: 305px;&quot; width=&quot;991&quot; />&lt;/p>&#xA;"
               linkEnds="#44c031fd-e7e8-45a1-bcfe-770cd912d72d #b0982c34-e673-482e-941a-83c46c4e5d5d"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="1ca65559-bcfe-4b00-aa3b-b0a3c390574b" name="M-USSM-Servo" linkEnds="#994929e8-af28-4b86-a589-8d429f2c25d8 #fb96e634-ce04-4b05-8011-c1fa5c257c5d"/>
@@ -3005,7 +3005,7 @@
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="bd451ee4-8ff6-4a91-b7ac-e5ef07435048" name="M E-IOB-CB" linkEnds="#0f3c26b7-ec49-4341-8cba-5226f906d3f6 #905a3f2b-6e57-4ea8-98fb-6d7b9b48848b"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="774996cc-5b45-4a8e-89a8-6a8ab1a964e6" name="E-Servo-IOB" description="&lt;p>The interface is captured in diagram below.&lt;/p>&#xA;&#xA;&lt;p>&lt;img src=&quot;Images/wiringdiagram_servo.png&quot; />&lt;/p>&#xA;"
+              id="774996cc-5b45-4a8e-89a8-6a8ab1a964e6" name="E-Servo-IOB" description="&lt;p>The interface is captured in diagram below.&lt;/p>&#xA;&#xA;&lt;p>&lt;img src=&quot;Smart Robotic Car/Images/wiringdiagram_servo.png&quot; />&lt;/p>&#xA;"
               linkEnds="#be2a5ce8-58ef-4c7a-8eed-13758e029b8b #43c2e07a-ed75-4095-99f3-13ef4966ee2f"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="bc270856-cbf5-4aa2-a517-7388965298aa" description="&lt;p>Generated by OpenAI model text-davinci-003&lt;/p>&#xA;&#xA;&lt;p>The &lt;strong>Camera Module&lt;/strong> is an essential tool for photographers and videographers alike. It allows users to capture high-quality images and videos at resolutions up to 1080p. The module is capable of recording in both standard and RAW formats, and is equipped with an adjustable aperture and automatic exposure settings. With its low-light sensitivity, the Camera Module is the perfect tool for capturing stunning photos and videos in any condition.&lt;/p>&#xA;&#xA;&lt;p>Its lightweight and compact design make it easy to transport, and its user-friendly interface makes it simple to operate. The Camera Module is compatible with a range of lenses, and its adjustable settings allow users to customize their shots to their preferences.&lt;/p>&#xA;&#xA;&lt;p>References:&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>B&amp;amp;H Photo Video. (n.d.). Camera Modules. Retrieved October 15, 2020, from https://www.bhphotovideo.com/c/buy/Camera-Modules/ci/30480/N/4294556890&lt;/li>&#xA;&#x9;&lt;li>Redshark News. (2019, August 28). Camera Module: A Comprehensive Guide. Retrieved October 15, 2020, from https://www.&lt;/li>&#xA;&lt;/ul>&#xA;"
