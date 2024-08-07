@@ -2,7 +2,8 @@
 
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
+    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
@@ -60,6 +61,14 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="45a8f0c1-1dfe-4767-b4e0-9d521d72cee4" name="System Analysis">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="d759446b-3271-4974-91c9-7e6626be6bb2"
+          ReqIFLongName="Smart Car Customer Needs" ReqIFName="Introduction">
+        <ownedRequirements xsi:type="Requirements:Folder" id="527ac3a7-aacb-4085-ad6c-cd09e95881fe"
+            ReqIFLongName="Remote Requirements">
+          <ownedRequirements xsi:type="Requirements:Requirement" id="12a1972b-dc48-4073-8ef3-3d68af319e92"
+              ReqIFLongName="IR Remote Control" ReqIFText="&lt;p>The system shall provide an IR Remote Control&lt;/p>&#xA;"/>
+        </ownedRequirements>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="a2a8a52f-fc13-4d21-9a8a-62fa0d4892fe" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
@@ -1144,7 +1153,7 @@
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.la:LogicalFunctionPkg"
           id="a2e3052c-a611-4c45-9e8f-de38f66ea544" name="Logical Functions">
         <ownedLogicalFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-            id="e9e96839-dac8-4dee-9022-0d4c8576c127" name="Root Logical Function">
+            id="e9e96839-dac8-4dee-9022-0d4c8576c127" name="LF-001 - Root Logical Function">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="77d4ebda-c12e-4261-bc59-050bb52cf014" targetElement="#53b5b42b-db6b-47be-b5c0-4fa982aa726f"
               sourceElement="#810ca40a-c536-40ef-b840-1e8a8e9bced0"/>
@@ -1316,7 +1325,7 @@
                 sourceElement="#1e7620b2-a1c4-4a16-9b42-23b338b3c011"/>
           </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="87f41ace-70a6-4b45-b17b-608fe541169e" name="Interact with Rocker">
+              id="87f41ace-70a6-4b45-b17b-608fe541169e" name="LF-002 - Interact with Rocker">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="0a74ec9e-e857-4d5f-bf16-a707ff89b6c9" name="FOP 1" outgoingExchangeItems="#a553baf7-d4b7-46f8-85f1-b3376674de1f">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1328,7 +1337,7 @@
                 sourceElement="#87f41ace-70a6-4b45-b17b-608fe541169e"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="b549d18d-4cef-415a-9fbd-b63f17951c82" name="Recieve Rocker Input">
+              id="b549d18d-4cef-415a-9fbd-b63f17951c82" name="LF-003 - Recieve Rocker Input">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="eeb10614-31fd-45ff-b9fb-02e67d5dfcb8" name="FIP 1" incomingExchangeItems="#a553baf7-d4b7-46f8-85f1-b3376674de1f">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1346,7 +1355,7 @@
                 sourceElement="#b549d18d-4cef-415a-9fbd-b63f17951c82"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="b258ebe0-c40b-42e4-892f-6294da78727f" name="Process Rocker Command">
+              id="b258ebe0-c40b-42e4-892f-6294da78727f" name="LF-004 - Process Rocker Command">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="89a8d3ea-b2ac-45c7-a12a-841dd14ce506" name="FIP 1" incomingExchangeItems="#de174c51-653d-4412-9a06-163956ade26a">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1370,7 +1379,7 @@
                 sourceElement="#b258ebe0-c40b-42e4-892f-6294da78727f"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="c01d536d-3225-4516-9da7-3c41612e8a7d" name="Drive Left Wheels">
+              id="c01d536d-3225-4516-9da7-3c41612e8a7d" name="LF-005 - Drive Left Wheels">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="73776510-d90a-497b-ba2e-c7eb9e088c53" name="FIP 1" incomingExchangeItems="#9c1251fc-5069-4bb0-b58b-6a6ed81cb169">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1388,7 +1397,7 @@
                 sourceElement="#c01d536d-3225-4516-9da7-3c41612e8a7d"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="2e843fd4-8df2-446c-b7db-01c827d858bc" name="Driver Right Wheels">
+              id="2e843fd4-8df2-446c-b7db-01c827d858bc" name="LF-006 - Driver Right Wheels">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="e4785dcf-f719-4884-ba1a-56e97f12a640" name="FIP 1" incomingExchangeItems="#9c1251fc-5069-4bb0-b58b-6a6ed81cb169">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1406,7 +1415,7 @@
                 sourceElement="#2e843fd4-8df2-446c-b7db-01c827d858bc"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="8e93290e-1cbb-48c5-a4d0-66e8b324086a" name="Provide Left Wheel Resistance">
+              id="8e93290e-1cbb-48c5-a4d0-66e8b324086a" name="LF-007 - Provide Left Wheel Resistance">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="18707621-1411-4c0f-9e6e-941891509f39" name="FIP 1">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1424,7 +1433,7 @@
                 sourceElement="#8e93290e-1cbb-48c5-a4d0-66e8b324086a"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="720f8b1b-cf1a-4363-b234-2233d5c094c1" name="Provide Right Wheel Resistance">
+              id="720f8b1b-cf1a-4363-b234-2233d5c094c1" name="LF-008 - Provide Right Wheel Resistance">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="89cfd051-c6aa-45e0-8bcd-2a12c2c82bc7" name="FIP 1">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1442,7 +1451,7 @@
                 sourceElement="#720f8b1b-cf1a-4363-b234-2233d5c094c1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="bcfd42d6-e2c2-498b-914a-f992fcf5233f" name="Move Car">
+              id="bcfd42d6-e2c2-498b-914a-f992fcf5233f" name="LF-009 - Move Car">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="7a11de3c-8837-49de-94d5-4417b98b04ae" name="FIP 1">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1466,7 +1475,7 @@
                 sourceElement="#bcfd42d6-e2c2-498b-914a-f992fcf5233f"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="dd3ada02-9d20-4314-b419-35d37516bd0e" name="Observe Vehicle ">
+              id="dd3ada02-9d20-4314-b419-35d37516bd0e" name="LF-010 - Observe Vehicle ">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="30b66d7c-a84d-4a0e-ac4d-89ec5f74634c" name="FIP 1" incomingExchangeItems="#ce103ae3-a0a9-473c-9cf7-9e6a5723c224">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1478,7 +1487,7 @@
                 sourceElement="#dd3ada02-9d20-4314-b419-35d37516bd0e"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="aa3d8c58-4d4c-489a-ab2c-fbe5e9bfd8ae" name="Interact with Direction Stop Buttons">
+              id="aa3d8c58-4d4c-489a-ab2c-fbe5e9bfd8ae" name="LF-011 - Interact with Direction Stop Buttons">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="158cce49-55d2-4176-a3d2-4315a5306384" name="FOP 1" outgoingExchangeItems="#c29112b3-d3f4-4705-b29e-0757e11f8721">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1490,7 +1499,7 @@
                 sourceElement="#aa3d8c58-4d4c-489a-ab2c-fbe5e9bfd8ae"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="3e43f37e-be89-4a7e-8869-1c59f1e82d29" name="Recieve Manual Operation Button">
+              id="3e43f37e-be89-4a7e-8869-1c59f1e82d29" name="LF-012 - Recieve Manual Operation Button">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="5a608f0f-8335-404d-a74b-2354e5435781" name="FIP 1" incomingExchangeItems="#c29112b3-d3f4-4705-b29e-0757e11f8721">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1508,7 +1517,7 @@
                 sourceElement="#3e43f37e-be89-4a7e-8869-1c59f1e82d29"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="a8a978ee-be78-4c77-8b9e-324931871e79" name="Process IR Remote Command">
+              id="a8a978ee-be78-4c77-8b9e-324931871e79" name="LF-013 - Process IR Remote Command">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="3104bd05-b3bc-413e-baf9-82a75785f672" name="FIP 1" incomingExchangeItems="#2c9b1210-0dfb-4798-8cd5-152428e46217">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -2014,9 +2023,13 @@
                 id="2d374ba7-e558-4d58-8c68-1201b1ea7bcf" targetElement="#5a608f0f-8335-404d-a74b-2354e5435781"
                 sourceElement="#da370f6b-19b3-4f54-8583-416811bbfb0c"/>
           </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d5f1aae3-ff56-4071-b7ae-4a1a5de840c3"
+              name="LC 1" abstractType="#618605c6-7b03-4ede-a32c-ba3f07f515a5"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="257571aa-319f-4925-b44f-456feac06b19" targetElement="#0f9b8eca-bbd2-48c8-aeae-82a9c1d1c5ef"
               sourceElement="#56deb524-4118-4f4c-a69f-317d753e0290"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="618605c6-7b03-4ede-a32c-ba3f07f515a5" name="LC 1"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="20d72b01-8391-4276-bb49-1efe2769e6c9" name="Operator" actor="true"
@@ -2773,9 +2786,48 @@
                 sourceElement="#931888b1-a46a-4762-8c75-6a38aaf2b24b"/>
           </ownedComponentExchanges>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6994db97-e3da-4f90-bdb9-8cdac2563578"
-              name="Camera Module" abstractType="#bc270856-cbf5-4aa2-a517-7388965298aa"/>
+              name="Camera Module" appliedPropertyValueGroups="#a8192f11-2374-4e3f-9b22-225b9b13613f #28a651a9-3aad-453b-b42b-0818d7ab0660 #b41aa9f1-8abe-475c-9015-55efd12d79bb"
+              abstractType="#bc270856-cbf5-4aa2-a517-7388965298aa">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="a8192f11-2374-4e3f-9b22-225b9b13613f" name="Mass" appliedPropertyValues="#e2f7c75b-5740-4d68-a04d-e1c71a150d97 #d73e2909-4430-4061-9843-98d4903a820c">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="e2f7c75b-5740-4d68-a04d-e1c71a150d97" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="d73e2909-4430-4061-9843-98d4903a820c" name="Value"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="28a651a9-3aad-453b-b42b-0818d7ab0660" name="Mass" appliedPropertyValues="#963c04ec-5fb8-46b8-8a45-1ca94a11d971 #13012545-bfb4-488b-989b-bb2672129929">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="963c04ec-5fb8-46b8-8a45-1ca94a11d971" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="13012545-bfb4-488b-989b-bb2672129929" name="Value"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="b41aa9f1-8abe-475c-9015-55efd12d79bb" name="Mass" appliedPropertyValues="#1fde818d-7b75-474e-9d50-2f60450f3f69 #cffab0c5-18e1-40ee-96e8-e0b0619928ad">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="1fde818d-7b75-474e-9d50-2f60450f3f69" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="cffab0c5-18e1-40ee-96e8-e0b0619928ad" name="Value"/>
+            </ownedPropertyValueGroups>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="aa7c8b55-f116-4be3-b418-8ec7ffcbdccc"
-              name="Ultra Sonic Sensor Module" abstractType="#cb98d9e6-cdb0-4366-a2c5-fecf9374c847"/>
+              name="Ultra Sonic Sensor Module" appliedPropertyValueGroups="#cdfc8604-ee1c-4e97-8604-95b453cd637b #3f087b41-27c5-4bd1-b224-942461595d7a"
+              abstractType="#cb98d9e6-cdb0-4366-a2c5-fecf9374c847">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="cdfc8604-ee1c-4e97-8604-95b453cd637b" name="Mass" appliedPropertyValues="#da4b5121-6490-47b6-a5c2-ba5fe9d68313 #21995b73-23ec-4d9a-9a2f-8e4800627e07">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="da4b5121-6490-47b6-a5c2-ba5fe9d68313" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="21995b73-23ec-4d9a-9a2f-8e4800627e07" name="Value"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="3f087b41-27c5-4bd1-b224-942461595d7a" name="Mass" appliedPropertyValues="#fc6ffd7c-1a86-40cd-891a-e9430d2b688c #b1cc2428-0117-40d7-9bdb-f2e0f65d9678">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="fc6ffd7c-1a86-40cd-891a-e9430d2b688c" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="b1cc2428-0117-40d7-9bdb-f2e0f65d9678" name="Value"/>
+            </ownedPropertyValueGroups>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6fa114ac-b4fd-4ae9-818a-c94de199cf91"
               name="Servo" abstractType="#60274737-55d8-4fc2-b49c-64da66ed3624">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
@@ -2795,7 +2847,23 @@
                 location="#7c7ed0ac-460a-4947-9b79-eb2d090decc7"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="753a6fdb-ec6f-4dca-8e15-311514f5deb1"
-              name="Camera" abstractType="#65931400-12bc-426c-aed4-8b4e84258c0a"/>
+              name="Camera Behavior" appliedPropertyValueGroups="#a33a5804-f33f-49db-82f5-e544c25fffb0 #733b0296-45c2-4a98-84e7-ad8d0c560b0c"
+              abstractType="#65931400-12bc-426c-aed4-8b4e84258c0a">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="a33a5804-f33f-49db-82f5-e544c25fffb0" name="Mass2" appliedPropertyValues="#232f9992-b22f-4e25-8952-b9ff47692a08 #a54bc0c4-a3e1-43c4-9348-3f7468e75a4e">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="232f9992-b22f-4e25-8952-b9ff47692a08" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="a54bc0c4-a3e1-43c4-9348-3f7468e75a4e" name="Value"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="733b0296-45c2-4a98-84e7-ad8d0c560b0c" name="Mass2" appliedPropertyValues="#da94740a-792e-4283-9079-009fd81d4db0 #a835cfad-c24b-4367-9930-c46649fa404a">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="da94740a-792e-4283-9079-009fd81d4db0" name="Units"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="a835cfad-c24b-4367-9930-c46649fa404a" name="Value"/>
+            </ownedPropertyValueGroups>
+          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6f75ef7e-6324-4509-9cf0-698257a8f647"
               name="Ultra Sonic Sensor" abstractType="#24bda714-5010-4380-a9b7-4161a4b08367"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="aacd4ac3-9082-409d-a066-9929096179cd"
@@ -3139,7 +3207,7 @@
             </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="65931400-12bc-426c-aed4-8b4e84258c0a" description="" name="Camera"
+              id="65931400-12bc-426c-aed4-8b4e84258c0a" description="" name="Camera Behavior"
               nature="BEHAVIOR">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="4625b593-2d59-4baf-96a1-ae9178c513cf" targetElement="#a99fccf5-06a7-4525-8e6d-e75574c9583b"
