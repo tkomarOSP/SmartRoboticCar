@@ -402,7 +402,8 @@
               id="0c51b3f5-d501-46d0-8bf4-2d869de93b7c" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="7a5f4bce-ef81-41d3-b0fb-505c35ea14b7" name="Restore Defaults">
+            id="7a5f4bce-ef81-41d3-b0fb-505c35ea14b7" name="Restore Default Line-Tracking Threshold"
+            description="Restore the initial default line-tracking sensor threshold using the IR remote (manufacturer key 5).">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="da7c429c-b109-4774-a8e6-b6a010aad8c6" involved="#0f9b8eca-bbd2-48c8-aeae-82a9c1d1c5ef"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
