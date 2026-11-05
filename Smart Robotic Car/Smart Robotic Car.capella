@@ -547,6 +547,9 @@
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="081594a6-cdcf-4bcf-9d08-71e5a071774f" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="a5c6738c-93be-41f3-9a58-9391c2cedd81" description="Reduce the line-tracking sensor threshold using the IR remote (manufacturer key 6)."
+            name="Reduce Line-Tracking Threshold"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="049f4c2d-801c-40c0-b5ec-129df9950755" name="Interfaces"/>
