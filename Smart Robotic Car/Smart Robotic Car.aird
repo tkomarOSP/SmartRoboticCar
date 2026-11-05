@@ -104,7 +104,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_xKWicMBBEe2rvof_BlM05g">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xxm9YBRHEe6QIuPB5SPcJQ" name="[MCB] Handheld Remote Capabilities" repPath="#_Xxj6EBRHEe6QIuPB5SPcJQ" changeId="1709569583581">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xxm9YBRHEe6QIuPB5SPcJQ" name="[MCB] Handheld Remote Capabilities" repPath="#_Xxj6EBRHEe6QIuPB5SPcJQ" changeId="1793899176564">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Smart%20Robotic%20Car.capella#af007421-9056-4130-a75f-4f51df7e2008"/>
       </ownedRepresentationDescriptors>
@@ -13134,7 +13134,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_erS8khRIEe6QIuPB5SPcJQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_erPSMRRIEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_erPSMhRIEe6QIuPB5SPcJQ" x="20" y="455" width="70" height="46"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_erPSMhRIEe6QIuPB5SPcJQ" y="425" width="70" height="46"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_hKbRcBRIEe6QIuPB5SPcJQ" type="2001" element="_hKFTMBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_hKbRcxRIEe6QIuPB5SPcJQ" type="5002">
@@ -13145,7 +13145,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hKeUwhRIEe6QIuPB5SPcJQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_hKbRcRRIEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hKbRchRIEe6QIuPB5SPcJQ" x="120" y="455" width="70" height="46"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hKbRchRIEe6QIuPB5SPcJQ" x="100" y="480" width="70" height="46"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_jjpyoBRIEe6QIuPB5SPcJQ" type="2001" element="_jjVpkBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_jjqZsBRIEe6QIuPB5SPcJQ" type="5002">
@@ -13156,7 +13156,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jjs18hRIEe6QIuPB5SPcJQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_jjpyoRRIEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jjpyohRIEe6QIuPB5SPcJQ" x="230" y="455" width="70" height="46"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jjpyohRIEe6QIuPB5SPcJQ" x="250" y="510" width="70" height="46"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_lctmABRIEe6QIuPB5SPcJQ" type="2001" element="_lcYO0BRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_lctmAxRIEe6QIuPB5SPcJQ" type="5002">
@@ -13167,7 +13167,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcwpUhRIEe6QIuPB5SPcJQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_lctmARRIEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lctmAhRIEe6QIuPB5SPcJQ" x="350" y="455" width="70" height="46"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lctmAhRIEe6QIuPB5SPcJQ" x="480" y="540" width="70" height="46"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_paZjkBRIEe6QIuPB5SPcJQ" type="2001" element="_paFagBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_paZjkxRIEe6QIuPB5SPcJQ" type="5002">
@@ -13178,7 +13178,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pacm4hRIEe6QIuPB5SPcJQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_paZjkRRIEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_paZjkhRIEe6QIuPB5SPcJQ" x="450" y="455" width="70" height="46"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_paZjkhRIEe6QIuPB5SPcJQ" x="360" y="525" width="70" height="46"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_XxxVchRHEe6QIuPB5SPcJQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_tN8GoBRIEe6QIuPB5SPcJQ" type="4001" element="_tNgBwBRIEe6QIuPB5SPcJQ" source="_qWAFoBRHEe6QIuPB5SPcJQ" target="_hHkAIBRHEe6QIuPB5SPcJQ">
@@ -13550,80 +13550,80 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_mZgI8BRJEe6QIuPB5SPcJQ" type="4001" element="_mZPqYBRJEe6QIuPB5SPcJQ" source="_ZttoQBRIEe6QIuPB5SPcJQ" target="_erPSMBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_mZgwABRJEe6QIuPB5SPcJQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mZgwARRJEe6QIuPB5SPcJQ" x="-6" y="-9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mZgwARRJEe6QIuPB5SPcJQ" x="-9" y="-8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_mZgwAhRJEe6QIuPB5SPcJQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mZgwAxRJEe6QIuPB5SPcJQ" x="2" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mZgwAxRJEe6QIuPB5SPcJQ" x="4" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_mZgwBBRJEe6QIuPB5SPcJQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mZgwBRRJEe6QIuPB5SPcJQ" x="2" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mZgwBRRJEe6QIuPB5SPcJQ" x="5" y="11"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_mZgI8RRJEe6QIuPB5SPcJQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_mZgI8hRJEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mZgI8xRJEe6QIuPB5SPcJQ" points="[0, 0, 46, -109]$[-46, 109, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mZgI8xRJEe6QIuPB5SPcJQ" points="[0, 0, 66, -79]$[-66, 79, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mZgwBhRJEe6QIuPB5SPcJQ" id="(0.5142857142857142,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mZgwBxRJEe6QIuPB5SPcJQ" id="(0.42857142857142855,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_m85KHhRJEe6QIuPB5SPcJQ" type="4001" element="_m8mPFBRJEe6QIuPB5SPcJQ" source="_ZttoQBRIEe6QIuPB5SPcJQ" target="_hKbRcBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_m85KIhRJEe6QIuPB5SPcJQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85KIxRJEe6QIuPB5SPcJQ" x="-4" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85KIxRJEe6QIuPB5SPcJQ" x="-7" y="-8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_m85KJBRJEe6QIuPB5SPcJQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85KJRRJEe6QIuPB5SPcJQ" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85KJRRJEe6QIuPB5SPcJQ" x="1" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_m85KJhRJEe6QIuPB5SPcJQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85KJxRJEe6QIuPB5SPcJQ" x="2" y="9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m85KJxRJEe6QIuPB5SPcJQ" x="-2" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_m85KHxRJEe6QIuPB5SPcJQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_m85KIBRJEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m85KIRRJEe6QIuPB5SPcJQ" points="[10, 23, -51, -109]$[61, 132, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m85KIRRJEe6QIuPB5SPcJQ" points="[6, 23, -35, -134]$[41, 157, 0, 0]"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m85KKRRJEe6QIuPB5SPcJQ" id="(0.5142857142857142,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_ncuggBRJEe6QIuPB5SPcJQ" type="4001" element="_ncaXmBRJEe6QIuPB5SPcJQ" source="_ZttoQBRIEe6QIuPB5SPcJQ" target="_jjpyoBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_ncughBRJEe6QIuPB5SPcJQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncughRRJEe6QIuPB5SPcJQ" x="-7" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncughRRJEe6QIuPB5SPcJQ" x="-10" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_ncughhRJEe6QIuPB5SPcJQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncughxRJEe6QIuPB5SPcJQ" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncughxRJEe6QIuPB5SPcJQ" x="1" y="7"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_ncugiBRJEe6QIuPB5SPcJQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncugiRRJEe6QIuPB5SPcJQ" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ncugiRRJEe6QIuPB5SPcJQ" x="1" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_ncuggRRJEe6QIuPB5SPcJQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_ncugghRJEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ncuggxRJEe6QIuPB5SPcJQ" points="[10, 10, -120, -124]$[130, 134, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ncuggxRJEe6QIuPB5SPcJQ" points="[10, 12, -140, -177]$[150, 189, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o563QBRJEe6QIuPB5SPcJQ" id="(0.8571428571428571,0.45652173913043476)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ncugixRJEe6QIuPB5SPcJQ" id="(0.2857142857142857,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_pdihsBRJEe6QIuPB5SPcJQ" type="4001" element="_pdNxsBRJEe6QIuPB5SPcJQ" source="_ZttoQBRIEe6QIuPB5SPcJQ" target="_lctmABRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_pdjIwBRJEe6QIuPB5SPcJQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pdjIwRRJEe6QIuPB5SPcJQ" x="-2" y="-9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pdjIwRRJEe6QIuPB5SPcJQ" x="-8" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_pdjIwhRJEe6QIuPB5SPcJQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pdjIwxRJEe6QIuPB5SPcJQ" x="-3" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pdjIwxRJEe6QIuPB5SPcJQ" x="-6" y="8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_pdjIxBRJEe6QIuPB5SPcJQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pdjIxRRJEe6QIuPB5SPcJQ" x="-2" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pdjIxRRJEe6QIuPB5SPcJQ" x="-6" y="6"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_pdihsRRJEe6QIuPB5SPcJQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_pdihshRJEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pdihsxRJEe6QIuPB5SPcJQ" points="[0, 0, -260, -140]$[260, 140, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pdihsxRJEe6QIuPB5SPcJQ" points="[0, 0, -390, -225]$[390, 225, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pdjIxhRJEe6QIuPB5SPcJQ" id="(1.0,0.32608695652173914)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pdjIxxRJEe6QIuPB5SPcJQ" id="(0.5714285714285714,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_qJGAIBRJEe6QIuPB5SPcJQ" type="4001" element="_qI0TgBRJEe6QIuPB5SPcJQ" source="_ZttoQBRIEe6QIuPB5SPcJQ" target="_paZjkBRIEe6QIuPB5SPcJQ">
           <children xmi:type="notation:Node" xmi:id="_qJGnMBRJEe6QIuPB5SPcJQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJGnMRRJEe6QIuPB5SPcJQ" x="-3" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJGnMRRJEe6QIuPB5SPcJQ" x="-7" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_qJGnMhRJEe6QIuPB5SPcJQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJGnMxRJEe6QIuPB5SPcJQ" x="-2" y="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJGnMxRJEe6QIuPB5SPcJQ" x="-3" y="6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_qJGnNBRJEe6QIuPB5SPcJQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJGnNRRJEe6QIuPB5SPcJQ" x="-3" y="9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJGnNRRJEe6QIuPB5SPcJQ" x="-1" y="6"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_qJGAIRRJEe6QIuPB5SPcJQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_qJGAIhRJEe6QIuPB5SPcJQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qJGAIxRJEe6QIuPB5SPcJQ" points="[0, 0, -356, -140]$[356, 140, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qJGAIxRJEe6QIuPB5SPcJQ" points="[0, 0, -266, -210]$[266, 210, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJGnNhRJEe6QIuPB5SPcJQ" id="(1.0,0.32608695652173914)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJGnNxRJEe6QIuPB5SPcJQ" id="(0.5142857142857142,0.0)"/>
         </edges>
@@ -13640,7 +13640,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='ActorNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qVehMBRHEe6QIuPB5SPcJQ" name="Operate with a Remote" outgoingEdges="_tNgBwBRIEe6QIuPB5SPcJQ _gYnkkBRJEe6QIuPB5SPcJQ _g3nNtBRJEe6QIuPB5SPcJQ _hY8ZJhRJEe6QIuPB5SPcJQ _h9B9rBRJEe6QIuPB5SPcJQ _ic8z4BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qVehMBRHEe6QIuPB5SPcJQ" name="Operate Car with IR Remote" outgoingEdges="_tNgBwBRIEe6QIuPB5SPcJQ _gYnkkBRJEe6QIuPB5SPcJQ _g3nNtBRJEe6QIuPB5SPcJQ _hY8ZJhRJEe6QIuPB5SPcJQ _h9B9rBRJEe6QIuPB5SPcJQ _ic8z4BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#d38855b6-6255-4faf-9033-8224b5040fa4"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#d38855b6-6255-4faf-9033-8224b5040fa4"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13651,7 +13651,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_4rMpkBRHEe6QIuPB5SPcJQ" name="Forward" outgoingEdges="_vEA3fBRIEe6QIuPB5SPcJQ" incomingEdges="_gYnkkBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_4rMpkBRHEe6QIuPB5SPcJQ" name="Drive Forward" outgoingEdges="_vEA3fBRIEe6QIuPB5SPcJQ" incomingEdges="_gYnkkBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#34b47117-d6b4-4467-a332-d71b8fb9c9d9"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#34b47117-d6b4-4467-a332-d71b8fb9c9d9"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13662,7 +13662,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6eqyUBRHEe6QIuPB5SPcJQ" name="Turn left" outgoingEdges="_vnOSQBRIEe6QIuPB5SPcJQ" incomingEdges="_g3nNtBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6eqyUBRHEe6QIuPB5SPcJQ" name="Turn Left" outgoingEdges="_vnOSQBRIEe6QIuPB5SPcJQ" incomingEdges="_g3nNtBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#70603fc1-389c-41a4-9b74-4aafee3d2544"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#70603fc1-389c-41a4-9b74-4aafee3d2544"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13673,7 +13673,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8n_PQBRHEe6QIuPB5SPcJQ" name="Backward" outgoingEdges="_xINj6BRIEe6QIuPB5SPcJQ" incomingEdges="_h9B9rBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8n_PQBRHEe6QIuPB5SPcJQ" name="Drive Backward" outgoingEdges="_xINj6BRIEe6QIuPB5SPcJQ" incomingEdges="_h9B9rBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#49ee47f0-9661-4cba-bebc-11f32a9f66d6"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#49ee47f0-9661-4cba-bebc-11f32a9f66d6"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13695,7 +13695,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Bn0mUBRIEe6QIuPB5SPcJQ" name="Line Tracking Mode" outgoingEdges="_0FqMgBRIEe6QIuPB5SPcJQ" incomingEdges="_jLLL1BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Bn0mUBRIEe6QIuPB5SPcJQ" name="Line-Tracking Mode" outgoingEdges="_0FqMgBRIEe6QIuPB5SPcJQ" incomingEdges="_jLLL1BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#c409c678-486e-47f8-8c75-f4e13fa59d71"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#c409c678-486e-47f8-8c75-f4e13fa59d71"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13706,7 +13706,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FnikMBRIEe6QIuPB5SPcJQ" name="Stop" outgoingEdges="_xyl9rBRIEe6QIuPB5SPcJQ" incomingEdges="_ic8z4BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FnikMBRIEe6QIuPB5SPcJQ" name="Stop Car" outgoingEdges="_xyl9rBRIEe6QIuPB5SPcJQ" incomingEdges="_ic8z4BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#fe22dcc9-c47c-40a1-accf-63daa9059a55"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#fe22dcc9-c47c-40a1-accf-63daa9059a55"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13717,7 +13717,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_HcBZkBRIEe6QIuPB5SPcJQ" name="Obstracle Aviodance Mode" outgoingEdges="_0uRrtBRIEe6QIuPB5SPcJQ" incomingEdges="_jwEBmBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_HcBZkBRIEe6QIuPB5SPcJQ" name="Obstacle-Avoidance Mode" outgoingEdges="_0uRrtBRIEe6QIuPB5SPcJQ" incomingEdges="_jwEBmBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#a941a1a6-59f5-477a-83b1-3883c981a23e"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#a941a1a6-59f5-477a-83b1-3883c981a23e"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13728,7 +13728,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Kqm1cBRIEe6QIuPB5SPcJQ" name="Auto Follow Mode" incomingEdges="_kUlD2BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Kqm1cBRIEe6QIuPB5SPcJQ" name="Auto-Follow Mode" incomingEdges="_kUlD2BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#0c15bbdb-e005-4cf5-9212-a3e110fb40a5"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#0c15bbdb-e005-4cf5-9212-a3e110fb40a5"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13739,7 +13739,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Sjk80BRIEe6QIuPB5SPcJQ" name="Set Automated Modes with Remore" outgoingEdges="_tuAGwhRIEe6QIuPB5SPcJQ _jLLL1BRJEe6QIuPB5SPcJQ _jwEBmBRJEe6QIuPB5SPcJQ _kUlD2BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Sjk80BRIEe6QIuPB5SPcJQ" name="Select Automated Mode with IR Remote" outgoingEdges="_tuAGwhRIEe6QIuPB5SPcJQ _jLLL1BRJEe6QIuPB5SPcJQ _jwEBmBRJEe6QIuPB5SPcJQ _kUlD2BRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#5e9d76c9-a376-4e89-b53d-6de91e771bda"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#5e9d76c9-a376-4e89-b53d-6de91e771bda"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13750,7 +13750,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZtZfMBRIEe6QIuPB5SPcJQ" name="Set Parameters with Remote" outgoingEdges="_uRJ3KBRIEe6QIuPB5SPcJQ _mZPqYBRJEe6QIuPB5SPcJQ _m8mPFBRJEe6QIuPB5SPcJQ _ncaXmBRJEe6QIuPB5SPcJQ _pdNxsBRJEe6QIuPB5SPcJQ _qI0TgBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZtZfMBRIEe6QIuPB5SPcJQ" name="Adjust Parameters with IR Remote" outgoingEdges="_uRJ3KBRIEe6QIuPB5SPcJQ _mZPqYBRJEe6QIuPB5SPcJQ _m8mPFBRJEe6QIuPB5SPcJQ _ncaXmBRJEe6QIuPB5SPcJQ _pdNxsBRJEe6QIuPB5SPcJQ _qI0TgBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#7a9e4906-3404-494f-a314-8e1809d686e8"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#7a9e4906-3404-494f-a314-8e1809d686e8"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13761,7 +13761,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_eq57ABRIEe6QIuPB5SPcJQ" name="Restore Defaults" outgoingEdges="_ECWSuBRJEe6QIuPB5SPcJQ" incomingEdges="_mZPqYBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_eq57ABRIEe6QIuPB5SPcJQ" name="Restore Default Line-Tracking Threshold" outgoingEdges="_ECWSuBRJEe6QIuPB5SPcJQ" incomingEdges="_mZPqYBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#7a5f4bce-ef81-41d3-b0fb-505c35ea14b7"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#7a5f4bce-ef81-41d3-b0fb-505c35ea14b7"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -13772,7 +13772,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hKFTMBRIEe6QIuPB5SPcJQ" name="Increase Threshold" outgoingEdges="_EoynrBRJEe6QIuPB5SPcJQ" incomingEdges="_m8mPFBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_hKFTMBRIEe6QIuPB5SPcJQ" name="Increase Line-Tracking Threshold" outgoingEdges="_EoynrBRJEe6QIuPB5SPcJQ" incomingEdges="_m8mPFBRJEe6QIuPB5SPcJQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#22dae741-b376-4caa-a3d7-32325d528b7d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Robotic%20Car.capella#22dae741-b376-4caa-a3d7-32325d528b7d"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
