@@ -289,7 +289,7 @@
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
           id="af007421-9056-4130-a75f-4f51df7e2008" name="Capabilities">
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="d38855b6-6255-4faf-9033-8224b5040fa4" name="Operate with a Remote">
+            id="d38855b6-6255-4faf-9033-8224b5040fa4" name="Operate Car with IR Remote">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="c62e4d54-c88a-4320-a5f7-bd9c18834352" included="#34b47117-d6b4-4467-a332-d71b8fb9c9d9"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
@@ -308,7 +308,7 @@
               id="503e30f6-d11c-462d-8c1c-5a8393e3af70" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="34b47117-d6b4-4467-a332-d71b8fb9c9d9" name="Forward">
+            id="34b47117-d6b4-4467-a332-d71b8fb9c9d9" name="Drive Forward">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="0e1ff105-71b1-432c-9bf7-6467db0afd14" involved="#f7366b2f-4a91-4101-abb4-07937679d02c"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
@@ -317,7 +317,7 @@
               id="cd55b083-2343-4baa-ac4e-6f54715b65e1" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="70603fc1-389c-41a4-9b74-4aafee3d2544" name="Turn left">
+            id="70603fc1-389c-41a4-9b74-4aafee3d2544" name="Turn Left">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="4377a847-c916-41a2-9c13-f1df8d837a8e" involved="#f7366b2f-4a91-4101-abb4-07937679d02c"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
@@ -326,7 +326,7 @@
               id="09c9852d-68b6-41f5-8e7b-ede592c259d8" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="49ee47f0-9661-4cba-bebc-11f32a9f66d6" name="Backward">
+            id="49ee47f0-9661-4cba-bebc-11f32a9f66d6" name="Drive Backward">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="fe307e16-05ea-4a44-a07f-0e63028ab850" involved="#f7366b2f-4a91-4101-abb4-07937679d02c"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
@@ -344,14 +344,14 @@
               id="d54b6939-02b9-4a19-ba5e-7d69fd9bee95" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="c409c678-486e-47f8-8c75-f4e13fa59d71" name="Line Tracking Mode">
+            id="c409c678-486e-47f8-8c75-f4e13fa59d71" name="Line-Tracking Mode">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="5f6ab778-fcf4-45bf-a23d-f8ea208a0dd0" involved="#0f9b8eca-bbd2-48c8-aeae-82a9c1d1c5ef"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="9a177c91-adf6-4970-a242-37104ed9961b" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="fe22dcc9-c47c-40a1-accf-63daa9059a55" name="Stop">
+            id="fe22dcc9-c47c-40a1-accf-63daa9059a55" name="Stop Car">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="c3b5967b-c26f-4044-b387-c69591302388" involved="#f7366b2f-4a91-4101-abb4-07937679d02c"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
@@ -360,19 +360,19 @@
               id="e7b02481-3d1d-408f-9260-3d41f3c24623" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="a941a1a6-59f5-477a-83b1-3883c981a23e" name="Obstracle Aviodance Mode">
+            id="a941a1a6-59f5-477a-83b1-3883c981a23e" name="Obstacle-Avoidance Mode">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="6855893c-1c60-4891-beb7-eb15c6415f68" involved="#0f9b8eca-bbd2-48c8-aeae-82a9c1d1c5ef"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="e7b919fe-7d09-4f69-bd43-377e19494568" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="0c15bbdb-e005-4cf5-9212-a3e110fb40a5" name="Auto Follow Mode">
+            id="0c15bbdb-e005-4cf5-9212-a3e110fb40a5" name="Auto-Follow Mode">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="5602253a-a385-4c17-80a0-02c00d09a315" involved="#0f9b8eca-bbd2-48c8-aeae-82a9c1d1c5ef"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="5e9d76c9-a376-4e89-b53d-6de91e771bda" name="Set Automated Modes with Remore">
+            id="5e9d76c9-a376-4e89-b53d-6de91e771bda" name="Select Automated Mode with IR Remote">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="d8e1d62b-9a52-4691-a9da-8bd20baad244" included="#c409c678-486e-47f8-8c75-f4e13fa59d71"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
@@ -385,7 +385,7 @@
               id="89abb490-93f6-4a66-b2ed-131fd7e7b263" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="7a9e4906-3404-494f-a314-8e1809d686e8" name="Set Parameters with Remote">
+            id="7a9e4906-3404-494f-a314-8e1809d686e8" name="Adjust Parameters with IR Remote">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="51aa92d8-dfc9-436f-8521-3bebf7e8a276" included="#7a5f4bce-ef81-41d3-b0fb-505c35ea14b7"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
@@ -409,7 +409,7 @@
               id="dade0c1a-8739-433e-870d-239de1fbaa1a" involved="#a95aa665-e046-4978-b5cb-81d336b5082f"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="22dae741-b376-4caa-a3d7-32325d528b7d" name="Increase Threshold">
+            id="22dae741-b376-4caa-a3d7-32325d528b7d" name="Increase Line-Tracking Threshold">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="1fae18ab-5c9e-4e5b-b4ae-d9ac21cb6919" involved="#0f9b8eca-bbd2-48c8-aeae-82a9c1d1c5ef"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
